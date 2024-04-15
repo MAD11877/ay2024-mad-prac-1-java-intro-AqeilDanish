@@ -11,6 +11,8 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int num = myObj.nextInt();
+
+    System.out.println("Number is: " + num * num);
   }
 }
